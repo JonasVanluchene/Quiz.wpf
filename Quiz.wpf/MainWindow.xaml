@@ -1,0 +1,30 @@
+﻿<Window x:Class="Quiz.wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz.wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="392" Width="238">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="177*"></ColumnDefinition>
+            <ColumnDefinition Width="61*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="43*"></RowDefinition>
+            <RowDefinition Height="145*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Label Content="Selecteer speler"/>
+            <ComboBox x:Name="cmbUserSelection" Width="120"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Margin="0,4,0,0">
+            <Label Content="Maak nieuwe speler"/>
+            <Label Content="Naam:" Margin="28,0,0,0"/>
+            <TextBox x:Name="txtUserName" TextWrapping="Wrap" Text="" Width="120"/>
+        </StackPanel>
+        <Button Grid.Column="1" Content="Start" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="-0.215,0.596" Height="20" Width="29" Click="Button_Click"/>
+
+    </Grid>
+</Window>
