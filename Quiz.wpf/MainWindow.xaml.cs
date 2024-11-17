@@ -21,10 +21,20 @@ namespace Quiz.wpf
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnStart_Click(object sender, RoutedEventArgs e)
         {
-            QuizWindow quizWindow = new QuizWindow();
-            quizWindow.Show();
+            txbFeedback.Background = Brushes.Transparent;
+            txbFeedback.Text = string.Empty;    
+            if (cmbUserSelection.SelectedItem != null)
+            {
+                QuizWindow quizWindow = new QuizWindow();
+                quizWindow.Show();
+            }
+            else
+            {
+                txbFeedback.Text = "Selecteer een speler om te quizzen";
+                txbFeedback.Background = Brushes.Red;
+            }
         }
     }
 }

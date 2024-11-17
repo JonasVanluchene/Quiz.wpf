@@ -21,3 +21,7 @@ C:\Users\jonas\OneDrive\Jonas DoCumenten\IT\C#\03 QuizApp\03 QuizWpf\Quiz.wpf\ob
 C:\Users\jonas\OneDrive\Jonas DoCumenten\IT\C#\03 QuizApp\03 QuizWpf\Quiz.wpf\obj\Debug\net8.0-windows\Quiz.wpf.pdb
 C:\Users\jonas\OneDrive\Jonas DoCumenten\IT\C#\03 QuizApp\03 QuizWpf\Quiz.wpf\obj\Debug\net8.0-windows\Quiz.wpf.genruntimeconfig.cache
 C:\Users\jonas\OneDrive\Jonas DoCumenten\IT\C#\03 QuizApp\03 QuizWpf\Quiz.wpf\obj\Debug\net8.0-windows\ref\Quiz.wpf.dll
+C:\Users\jonas\OneDrive\Jonas DoCumenten\IT\C#\03 QuizApp\03 QuizWpf\Quiz.wpf\bin\Debug\net8.0-windows\QuizLibrary.dll.dll
+C:\Users\jonas\OneDrive\Jonas DoCumenten\IT\C#\03 QuizApp\03 QuizWpf\Quiz.wpf\bin\Debug\net8.0-windows\QuizLibrary.dll.pdb
+C:\Users\jonas\OneDrive\Jonas DoCumenten\IT\C#\03 QuizApp\03 QuizWpf\Quiz.wpf\obj\Debug\net8.0-windows\Quiz.wpf.csproj.AssemblyReference.cache
+C:\Users\jonas\OneDrive\Jonas DoCumenten\IT\C#\03 QuizApp\03 QuizWpf\Quiz.wpf\obj\Debug\net8.0-windows\Quiz.wpf.csproj.Up2Date
